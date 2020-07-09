@@ -5,3 +5,6 @@ if ('serviceWorker' in navigator) {
     navigator.serviceWorker.register('/service-worker.js');
   });
 }
+
+// Cookies
+document.cookies = "username=Aarav Juneja; expires=Sat, 6 Jan 2029 12:00:00 UTC; path=/"
