@@ -7,4 +7,7 @@ if ('serviceWorker' in navigator) {
 }
 
 // Cookies
-document.cookies = "username=Aarav Juneja; expires=Sat, 6 Jan 2029 12:00:00 UTC; path=/"
+// create
+document.cookie = "username=Aarav Juneja; expires=Sat, 6 Jan 2029 12:00:00 UTC; path=/"
+// read all
+var allCookies = document.cookie
