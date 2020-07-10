@@ -10,5 +10,6 @@ if ('serviceWorker' in navigator) {
 // create
 document.cookie = "username=Aarav Juneja; expires=Sat, 6 Jan 2029 12:00:00 UTC; path=/"
 sessionStorage.setItem("Best Person", "Elika Juneja");
+localStorage.setItem("Best Person", "Aarav Juneja");
 // read all
 var allCookies = document.cookie
